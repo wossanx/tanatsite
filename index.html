@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo" id="logo">
+            <h1>QPICK</h1>
+        </div>
+        <div class="navmenu">
+            <ul>
+                <li>
+                    <div class="icon-container">
+                        <a href="#"><img src="img/favorite.png" class="favorite" alt="" height="40px" width="42px"></a>
+                        <a href="#"><img src="img/cart.png" class="cart" alt="" height="40px" width="42px">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <div class="blackmaintop">
+            <div class="texxxt">
+                <h1 id="product-title" class="accsiph">Аксессуары для <br> Iphone 13 Pro Max</h1>
+            </div>
+            <img src="img/iPhone-13-Pro-Max-silver-1000x1000 1.png" class="iphonesolid" alt="">
+        </div>
+        <div class="chexols">
+            <h3 id="cases-title" class="chex">Чехлы</h3>
+            <div class="frecase">
+                <div class="white-case">
+                    <img src="img/white-case.png" height="312px" width="159px" class="whitec" alt="">
+                    <h2 id="case-type-white" class="glass"><a href="#">Стеклянные</a></h2>
+                </div>
+                <div class="yellow-case">
+                    <img src="img/mellow-yellow-1 1.png" height="312px" width="159px" alt="" class="yellowc">
+                    <h2 id="case-type-yellow" class="Sillicons"><a href="#">Силиконовые</a></h2>
+                </div>
+                <div class="black-case">
+                    <img src="img/blackbo.png" height="312px" width="159px" alt="" class="blackc">
+                    <h2 id="case-type-black" class="kozhaa"><a href="#">Кожаные</a></h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="headphones">
+        <h3 id="headphones-title" class="bluet">Беспроводные наушники</h3>
+        <div class="pods">
+            <div class="airpodss">
+                <div class="favorite-icon" onclick="toggleFavorite(this)">
+                  <img src="img/favorite.png" height="20px" width="20px" class="favoritee">
+                </div>
+                <div class="apple-vector">
+                    <img src="img/Vector (2).png" height="30px" width="28px" alt="" class="apple">
+                </div>
+                <img src="img/airpods.png" alt="" class="airpods">
+                <div class="double">
+                    <h2 id="airpods-name" class="boro">Apple AirPods</h2>
+                    <div class="product-price">9527 ₸</div>
+                    <div class="rating-info">
+                        <img src="img/rating.png" width="33px" height="32px" alt="">
+                    </div>
+                    <div class="rating">4,7</div>
+                    <button class="buy-button" onclick="buyProduct()">Купить</button>
+                </div>
+            </div>
+            <div class="gerlax">
+                <div class="favorite-icon" onclick="toggleFavorite(this)">
+                   <img src="img/favorite.png" height="20px" width="20px" class="favoritee">
+                </div>
+                <img src="img/Image.png" alt="" class="airpro">
+                <div class="double2">
+                    <h2 id="gerlax-name" class="boro">GERLAX GH-04</h2>
+                    <div class="product-price">6527 ₸</div>
+                    <div class="rating-info">
+                        <img src="img/rating.png" width="33px" height="32px" alt="">
+                    </div>
+                    <div class="rating">4,7</div>
+                    <button class="buy-button" onclick="buyProduct()">Купить</button>
+                </div>
+            </div>
+            <div class="borofone">
+                <div class="favorite-icon" onclick="toggleFavorite(this)">
+                    <img src="img/favorite.png" height="20px" width="20px" class="favoritee">
+                </div>
+                <img src="img/bororo.png" alt="" class="borofine">
+                <div class="double3">
+                    <h2 id="borofone-name" class="boro">BOROFONE BO4</h2>
+                    <div class="product-price">7527 ₸</div>
+                    <div class="rating-info">
+                        <img src="img/rating.png" width="33px" height="32px" alt="">
+                    </div>
+                    <div class="rating">4,7</div>
+                    <button class="buy-button" onclick="buyProduct()">Купить</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="footer-logo" id="footer-logo">
+                <h1>QPICK</h1>
+            </div>
+            <div class="allwhites">
+                <h3 id="favorite-text" class="loves"><a href="#">Избранное</a></h3>
+                <h3 id="cart-text" class="carts"><a href="#">Корзина</a></h3>
+                <h3 id="contact-text" class="contact"><a href="#">Контакты</a></h3>
+            </div>
+            <div class="service">
+                <h3 id="service-text" class="service"><a href="#">Условия сервиса</a></h3>
+            </div>
+            <div class="frelanguage">
+                <img src="img/RU.png" width="23px" height="22px" alt="">
+                <h3 class="kz language-link" onclick="changeLanguage('kz')">Каз</h3>
+                <h3 class="ru language-link" onclick="changeLanguage('ru')">Рус</h3>
+                <h3 class="eng language-link" onclick="changeLanguage('en')">Eng</h3>
+            </div>
+            <div class="contacts">
+                <img src="img/VK.png" height="40px" width="41px" alt=""></a>
+                <img src="img/Instagram.png" height="42px" width="41px" alt="">
+                <img src="img/Telegram.png" height="42px" width="41px" alt="">
+                <img src="img/Whatsapp.png" height="42px" width="41px" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

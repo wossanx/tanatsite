@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;400..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+
+.header {
+    background-color: #EAEAEA;
+    display: flex;
+}
+
+.logo {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: 20px
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    float: right;
+    margin-top: 30px;
+    margin-left: 1100px;
+
+}
+
+
+.icon-container img {
+    margin-right: 50px;
+}
+
+
+ul li {
+    list-style: none
+}
+ 
+.main {
+    background-color: #EAEAEA; 
+    min-height: 95vh;
+    padding: 20px; 
+}
+
+.headphones {
+    background-color: #EAEAEA; 
+    min-height: 80vh;
+    padding: 20px; 
+}
+
+.blackmaintop {
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50px;
+    width: 80%; 
+    max-width: 1400px; 
+    margin: 80px auto;
+    height: 200px; 
+}
+
+.iphonesolid {
+    margin-left: 844px;
+    margin-top: -190px;
+    display: inline-block;
+}
+
+.texxxt {
+    display: block;
+    text-align: center;
+    float: center;
+    margin-top: 40px;
+    margin-right: 350px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.chex {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 23px;
+    margin-left: 220px;
+    color:  #838383;
+    
+}
+
+.frecase {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px 150px auto;
+}
+
+.white-case {
+
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 40px;
+    width: 80%; 
+    max-width: 400px; 
+    height: 410px; 
+}
+
+.yellow-case {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 40px;
+    width: 80%; 
+    max-width: 400px; 
+    height: 410px; 
+}
+
+.black-case {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 40px;
+    width: 80%; 
+    max-width: 400px; 
+    height: 410px; 
+}
+
+.glass, .Sillicons, .kozhaa {
+   
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.pods{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px 150px auto;
+
+}
+
+.airpodss, .gerlax, .borofone {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 40px;
+    width: 80%; 
+    max-width: 400px; 
+    height: 410px;
+}
+
+.favorite-icon {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.favoritee {
+    transition: filter 0.3s;
+}
+
+.active {
+    filter: brightness(0) saturate(100%) invert(24%) sepia(88%) saturate(2060%) hue-rotate(340deg) brightness(97%) contrast(99%); /* Красный цвет */
+}
+
+.apple-vector {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 25px;
+}
+
+.airpro, .borofine {
+    margin-right: -20px;
+}
+
+.product-price {
+    color: #FFA542;
+    text-align: right;
+    font-weight: 600;
+    margin-top: -24px;
+    margin-right: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.boro {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.rating-info {
+    margin-top: 40px;
+    margin-right: 335px;
+}
+
+.rating {
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 21px;
+    color: #838383;
+    margin-top: -30px;
+    margin-right: 240px;
+}
+
+.boro {
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bluet {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 23px;
+    margin-left: 220px;
+    color:  #838383;
+}
+
+.footer {
+    text-align: center;
+    margin-top: -50px;
+    background-color: #EAEAEA; 
+    min-height: 5vh;
+    padding: 20px; 
+}
+
+.service {
+    margin-left: 50px;
+}
+
+.container {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 40px;
+    width: 80%; 
+    max-width: 1600px; 
+    height: 210px;
+    margin-left: 180px ;
+}
+
+.footer-logo {
+    
+    
+    position: absolute;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 40px
+}
+
+.allwhites {
+    position:  absolute;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 17px;
+    color:  #000000;
+    margin-left: 390px;
+    margin-top: 50px;
+    flex-direction: column;
+    display: flex;
+}
+
+.allwhites h3 {
+    margin-bottom: 14px;
+}
+
+.allwhites h3:last-child {
+    margin-bottom: 0;
+}
+
+.service {
+
+    font-weight: 500;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 23px;
+    margin-top: 50px;
+    margin-left : 50px;
+   
+}
+
+.frelanguage {
+    display: flex;
+    margin-left: 700px;
+    margin-top: 40px;
+}
+
+.kz {
+    margin-left: 10px;
+}
+
+.frelanguage h3 {
+    margin-right: 20px;
+    font-size: 23px;
+}
+
+.frelanguage h3:last-child {
+    margin-right: 0px;
+}
+
+.contacts {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-top: -100px;
+    margin-right: 40px;
+}
+
+
+.contacts img{
+    margin-left: 20px;
+}
+
+.contacts img:last-child {
+    margin-right: 0px;
+}
+
+.language-link {
+    cursor: pointer; 
+    transition: color 0.3s; 
+}
+
+.language-link.active {
+    color: orange; 
+    font-weight: bold; 
+}
+
+.favorite-icon {
+    cursor: pointer; 
+}
+.favoritee {
+    transition: filter 0.3s; 
+}
+.favoritee.active {
+    filter: brightness(0) saturate(100%) invert(38%) sepia(100%) saturate(1849%) hue-rotate(349deg) brightness(104%) contrast(103%);
+}
+
+
+.frecase {
+    display: flex;
+    align-items: center;
+}
+
+.case-container {
+    display: flex;
+    overflow: hidden; 
+    width: 159px; 
+}
+
+.white-case, .yellow-case, .black-case {
+    min-width: 159px;
+    transition: transform 0.3s ease; 
+}
+
+.scroll-button {
+    background-color: #EAEAEA;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.buy-button {
+    display: flex;
+    background-color: #28a745;
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    margin: -30px 280px;
+}
+
+.buy-button:hover {
+    background-color: #218838; 
+}
+
+.buy-button:active {
+    background-color: #1e7e34; 
+}
+
+@media (max-width: 768px) {
+
+    .frecase, .pods {
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+
+    body {
+        margin: 0;
+        overflow-x: hidden; 
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 18px;
+        right: 200px;
+    }
+
+    .footer-logo {
+        font-size: 19px;
+        margin: 25px 10px;
+    }
+
+    .navmenu {
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon-container img {
+        margin: 0 5px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .blackmaintop {
+        width: 95%; 
+        margin: 20px auto; 
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .iphonesolid {
+        max-width: 50%;
+        height: auto;
+        display: block;
+        margin: -42px auto;
+        
+    }
+
+    .texxxt {
+        font-size: 16px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .chex {
+        font-size: 20px;
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .frecase, .pods {
+        flex-direction: column;
+        align-items: center; 
+        width: 100%; 
+        padding: 0 10px;
+    }
+
+    .white-case, .yellow-case, .black-case, .airpodss, .gerlax, .borofone {
+        width: 80%; 
+        max-width: 280px;
+        margin: 10px 0; 
+        border-radius: 10px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        background-color: #fff; 
+        margin-right: 0;
+    }
+
+    .product-price, .boro, .rating {
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .allwhites {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .frelanguage {
+        justify-content: center;
+        margin: 15px 0;
+    }
+
+    .frelanguage h3 {
+        margin: 0 5px;
+        font-size: 18px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contacts img {
+        margin-left: 10px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .contacts img:last-child {
+        margin-right: -20px;
+    }
+    
+
+    .bluet {
+        font-size: 20px;
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .boro {
+        margin-left: -100px;
+    }
+
+    .product-price {
+        text-align: right;
+       
+    }
+
+    .favoritee {
+        margin-left: -20px;
+    }
+
+    .rating {
+        margin-left: 35px;
+    }
+
+    .apple {
+        margin-left: -220px;
+        margin-top: -20px;
+    }
+
+    .container {
+        margin-top: 40px;
+        margin-left: 5px;
+        width: 100%;
+    }
+
+    .allwhites {
+        margin-top: 65px;
+        margin-left: 5px;
+    }
+
+    .service {
+        margin-left: 80px;
+    }
+
+    .frelanguage {
+        margin-left: 120px;
+    }
+    
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        margin-right: 100px;
+        margin-top: 10px;
+        
+    }
+
+    .buy-button {
+        display: flex;
+        margin-left: 150px;
+    }
+}
+
+.cart-count {
+    position: absolute;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 14px;
+    top: -5px; /* Позиция относительно иконки */
+    right: -10px; /* Позиция относительно иконки */
+}
+
+.cart-container {
+    position: relative;
+    display: inline-block; /* Чтобы счетчик корректно позиционировался */
+}
+
+
+html, body {
+    overflow-x: hidden;
+    position: relative;
+}
